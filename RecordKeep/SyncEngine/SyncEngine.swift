@@ -95,7 +95,6 @@ class SyncEngine {
     func saveVisitorDetails(visitorDetails: [String: AnyObject], visitorImage: UIImage?, completionHandler: @escaping (String?) -> Void) {
         guard Reachability.sharedInstance.isReachable() else { return }
         Notifier.sharedInstance.showActivityIndicator(title: "Saving...")
-        return
         savetoStorage(image: visitorImage, uniqueId: NSUUID().uuidString, completionHandler: { (downloadUrl) in
             var visitorDetails = visitorDetails
             visitorDetails.updateValue(downloadUrl as AnyObject, forKey: "imageUrl")
