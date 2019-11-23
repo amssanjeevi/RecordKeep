@@ -1,0 +1,33 @@
+
+/* 
+  Localizable.strings
+  RecordKeep
+
+  Created by Mohanasundaram on 22/11/19.
+  Copyright © 2019 Task. All rights reserved.
+*/
+
+"VisitorLog" = "Visitor Log";
+"NewVisitor" = "New Visitor";
+"AddImage" = "Add Visitor Image";
+"OpenCamera" = "Open Camera";
+"ChooseImage" = "Choose Image";
+"Okay" = "Okay";
+"Cancel" = "Cancel";
+"ShowSettings" = "Show Settings";
+"ChooseMethod" = "Choose a method to add image";
+"NoPermission" = "Permission not Granted!";
+"PermissionReason" = "User Permission is must for this Action";
+"EmptyField" = "Field is Empty!";
+"MandatoryField" = "%@ field is Mandatory, Please enter.";
+"VisitingTime" = "Visiting Time";
+"VisitorName" = "Visitor Name";
+"Purpose" = "Purpose";
+"Delete" = "Delete";
+"DataFetchInfo" = "Fetching Data from Server";
+"CompressionFailed" = "Compression Failed";
+"CompressionFailureInfo" = "Image compression failed";
+"InvalidDownloadUrl" = "Invalid Download Url";
+"SaveFailed" = "Upload failed";
+"NoNetworkInfo" = "No Network Connection";
+"OfflineSupportSoonInfo" = "Sorry we don't support offline yet. Kindly enable network connection.";
