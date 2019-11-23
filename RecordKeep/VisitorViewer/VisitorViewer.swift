@@ -26,6 +26,7 @@ class VisitorViewer: UIView {
         backgroundColor = Constants.Color.AppTheme
         backgroundView.applyBackgroundBlur()
         bringSubviewToFront(imageView)
+        bringSubviewToFront(closeButton)
         visitorName.applyViewBorder()
         visitorName.applyCornerRadius()
         purposeView.applyCornerRadius()
