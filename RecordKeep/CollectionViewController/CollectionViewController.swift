@@ -77,6 +77,16 @@ extension CollectionViewController {
         }
         
     }
+    
+    override public func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
+        let cell = collectionView.cellForItem(at: indexPath as IndexPath) as! CollectionCellWithImageAndDetailView
+        cell.startPressedAnimate()
+    }
+    
+    override public func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
+        let cell = collectionView.cellForItem(at: indexPath as IndexPath) as! CollectionCellWithImageAndDetailView
+        cell.endPressedAnimate()
+    }
 }
 
 extension CollectionViewController {

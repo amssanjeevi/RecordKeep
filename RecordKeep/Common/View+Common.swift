@@ -45,4 +45,20 @@ extension UIView {
             self.frame.origin.y = -UIScreen.main.bounds.height
         }, completion: completion)
     }
+    
+    func startPressedAnimate() {
+        UIView.animate(withDuration: 0.1) { () -> Void in
+            self.backgroundColor = Constants.Color.CellBackground
+            self.alpha = 0.8
+            self.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
+        }
+    }
+    
+    func endPressedAnimate() {
+        UIView.animate(withDuration: 0.2) { () -> Void in
+            self.backgroundColor = Constants.Color.Clear
+            self.alpha = 1
+            self.transform = CGAffineTransform.identity
+        }
+    }
 }
