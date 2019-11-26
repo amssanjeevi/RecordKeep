@@ -25,7 +25,7 @@ class CollectionViewController: UICollectionViewController {
     init() {
         super.init(nibName: "CollectionViewController", bundle: nil)
         SyncEngine.sharedInstance.getVisitorDetails { (visitorDetails) in
-            self.dataArray = visitorDetails
+            self.dataArray = visitorDetails.sorted { ($0.value(forKey: "time") as! String) > ($1.value(forKey: "time") as! String) }
             self.collectionView.reloadData()
         }
     }
