@@ -168,7 +168,7 @@ extension NewVisitorViewController: UITextFieldDelegate, UITextViewDelegate {
                 doneAction: #selector(toolBarDone),
                 cancelAction: #selector(toolBarCancel)
             )
-            timeOfVisitField.inputView = DatePickerFormatter.sharedInstance.getDatePicker(startDate: nil, endDate: nil, currentDate: Date(), style: .dateAndTime)
+            timeOfVisitField.inputView = DatePickerFormatter.sharedInstance.getDatePicker(startDate: Date(), endDate: nil, currentDate: Date(), style: .dateAndTime)
             timeOfVisitField.inputView!.backgroundColor = Constants.Color.White
         }
     }
