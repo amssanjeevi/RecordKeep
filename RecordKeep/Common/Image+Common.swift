@@ -30,7 +30,8 @@ extension UIImageView {
         initialLabel.frame.size = self.frame.size
         initialLabel.textColor = Constants.Color.White
         initialLabel.text = initial
-        initialLabel.font = UIFont.systemFont(ofSize: 30, weight: .bold)
+        let fontSize = (bounds.size.height + bounds.size.width)/5
+        initialLabel.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
         initialLabel.textAlignment = .center
         initialLabel.backgroundColor = bgColor
         initialLabel.layer.cornerRadius = 50.0
