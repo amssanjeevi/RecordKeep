@@ -11,7 +11,6 @@
 		845B90B5238985EA00CDA197 /* Image+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B90B4238985EA00CDA197 /* Image+Common.swift */; };
 		845B90BA2389AAFD00CDA197 /* VisitorViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B90B92389AAFD00CDA197 /* VisitorViewer.swift */; };
 		845B90BC2389AB3E00CDA197 /* VisitorViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B90BB2389AB3E00CDA197 /* VisitorViewer.xib */; };
-		8468BBFF2387E64500B8A2E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8468BBFE2387E64500B8A2E6 /* GoogleService-Info.plist */; };
 		847559D923870D5400324AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847559D823870D5400324AC9 /* AppDelegate.swift */; };
 		847559DB23870D5400324AC9 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847559DA23870D5400324AC9 /* ContainerViewController.swift */; };
 		847559E123870D5400324AC9 /* RecordKeep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847559DF23870D5400324AC9 /* RecordKeep.xcdatamodeld */; };
@@ -37,6 +36,7 @@
 		84D5810623888D66002EC4AD /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5810523888D66002EC4AD /* DatePicker.swift */; };
 		84D5810823890315002EC4AD /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5810723890315002EC4AD /* Encoder.swift */; };
 		84D5810B23890A2F002EC4AD /* SyncEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5810A23890A2F002EC4AD /* SyncEngine.swift */; };
+		84E312C92406DF4F00BCF48E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E312C82406DF4F00BCF48E /* GoogleService-Info.plist */; };
 		E465086889AD811FB5C16482 /* libPods-RecordKeep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18633CDA4E3F02C3FC78F28A /* libPods-RecordKeep.a */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,6 @@
 		845B90B4238985EA00CDA197 /* Image+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Common.swift"; sourceTree = "<group>"; };
 		845B90B92389AAFD00CDA197 /* VisitorViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorViewer.swift; sourceTree = "<group>"; };
 		845B90BB2389AB3E00CDA197 /* VisitorViewer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisitorViewer.xib; sourceTree = "<group>"; };
-		8468BBFE2387E64500B8A2E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		847559D523870D5400324AC9 /* RecordKeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordKeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847559D823870D5400324AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847559DA23870D5400324AC9 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		84D5810523888D66002EC4AD /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		84D5810723890315002EC4AD /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
 		84D5810A23890A2F002EC4AD /* SyncEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncEngine.swift; sourceTree = "<group>"; };
+		84E312C82406DF4F00BCF48E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B1FC9810ADA878E370223B41 /* Pods-RecordKeep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordKeep.release.xcconfig"; path = "Target Support Files/Pods-RecordKeep/Pods-RecordKeep.release.xcconfig"; sourceTree = "<group>"; };
 		ECF97189ACD05A47C9BFB0AC /* Pods-RecordKeep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordKeep.debug.xcconfig"; path = "Target Support Files/Pods-RecordKeep/Pods-RecordKeep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,7 +143,7 @@
 				847559E223870D5500324AC9 /* Assets.xcassets */,
 				847559E423870D5500324AC9 /* LaunchScreen.storyboard */,
 				847559E723870D5500324AC9 /* Info.plist */,
-				8468BBFE2387E64500B8A2E6 /* GoogleService-Info.plist */,
+				84E312C82406DF4F00BCF48E /* GoogleService-Info.plist */,
 				847559DF23870D5400324AC9 /* RecordKeep.xcdatamodeld */,
 			);
 			path = RecordKeep;
@@ -194,17 +194,9 @@
 		847559F9238739C100324AC9 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				847559FA238739C900324AC9 /* TableCells */,
 				847559FB238739D500324AC9 /* CollectionCells */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		847559FA238739C900324AC9 /* TableCells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableCells;
 			sourceTree = "<group>";
 		};
 		847559FB238739D500324AC9 /* CollectionCells */ = {
@@ -327,13 +319,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84755A0A2387B78D00324AC9 /* NewVisitorViewController.xib in Resources */,
+				84E312C92406DF4F00BCF48E /* GoogleService-Info.plist in Resources */,
 				84755A032387B30900324AC9 /* Localizable.strings in Resources */,
 				847559F2238728F100324AC9 /* CollectionViewController.xib in Resources */,
 				847559FF23873A9F00324AC9 /* CollectionCellWithImageAndDetailView.xib in Resources */,
 				845B90BC2389AB3E00CDA197 /* VisitorViewer.xib in Resources */,
 				847559E623870D5500324AC9 /* LaunchScreen.storyboard in Resources */,
 				847559E323870D5500324AC9 /* Assets.xcassets in Resources */,
-				8468BBFF2387E64500B8A2E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

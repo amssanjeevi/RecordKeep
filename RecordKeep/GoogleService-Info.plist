@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>435416901512-afapnujrm0sqgtne1mqkb1pq7f6i1m49.apps.googleusercontent.com</string>
+	<string>609553783664-tn9rek2pb4apsl8ndrjr667p6aqn8di8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.435416901512-afapnujrm0sqgtne1mqkb1pq7f6i1m49</string>
+	<string>com.googleusercontent.apps.609553783664-tn9rek2pb4apsl8ndrjr667p6aqn8di8</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCFg6GJhoe2Hn0xfb6nZh1ppHb_djlRz8I</string>
+	<string>AIzaSyCf8Oid3JtIVAV-kg0HqZCkOZ1cX6J_bZo</string>
 	<key>GCM_SENDER_ID</key>
-	<string>435416901512</string>
+	<string>609553783664</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.task.RecordKeep</string>
 	<key>PROJECT_ID</key>
-	<string>recordkeep4ams</string>
+	<string>recordkeep-91864</string>
 	<key>STORAGE_BUCKET</key>
-	<string>recordkeep4ams.appspot.com</string>
+	<string>recordkeep-91864.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:435416901512:ios:ceef136e7eac6585c8bc3d</string>
+	<string>1:609553783664:ios:5d1bf71f3c472272adcdb5</string>
 	<key>DATABASE_URL</key>
-	<string>https://recordkeep4ams.firebaseio.com</string>
+	<string>https://recordkeep-91864.firebaseio.com</string>
 </dict>
 </plist>

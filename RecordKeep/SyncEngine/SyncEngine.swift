@@ -14,7 +14,7 @@ class SyncEngine {
     static let sharedInstance = SyncEngine()
     
     lazy var dbReference = {
-        return Database.database().reference(fromURL: "https://recordkeep4ams.firebaseio.com/")
+        return Database.database().reference(fromURL: "https://recordkeep-91864.firebaseio.com/")
     }()
     
     func getVisitorDetails(completionHandler: @escaping ([AnyObject]) -> Void) {
@@ -79,7 +79,7 @@ class SyncEngine {
     }
     
     func saveToDatabase(postData: AnyObject, completionHandler: @escaping (String?) -> Void, failureHandler: @escaping (String) -> Void) {
-        let dbReference = Database.database().reference(fromURL: "https://recordkeep4ams.firebaseio.com/")
+        let dbReference = Database.database().reference(fromURL: "https://recordkeep-91864.firebaseio.com/")
         guard let key = dbReference.childByAutoId().key else { return }
         let childUpdates = ["/visitors/\(key)": postData]
         dbReference.updateChildValues(childUpdates) { (error, _) in
